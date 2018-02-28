@@ -6,5 +6,5 @@ _Para continuar con la tarea, he confeccionado una hoja con todas las preguntas 
 
 **Para finalizar he creado unas hojas de _estilos CSS_ para darle formato, imágen de fondo y logo a la aplicación web.**  
 
-_He creado una hoja de JS en la que indico **qué tiene que hacer** el examen como por ejemplo autocorregirse.  
+_He creado una hoja de JS en la que indico **qué tiene que hacer** el examen como por ejemplo autocorregirse._  
 
