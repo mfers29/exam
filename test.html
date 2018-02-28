@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- <meta http-equiv="refresh" content="10" /> -->
+<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/stylesheet_pc.css'>
+<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/stylesheet_mob.css'>
+<script src="js/js.js"></script>
+<title>Examen Tarea 4</title>
+</head>
+
+<body>
+
+<div id="space"> <!-- Contenedor Base -->
+
+	<div id="head"> <!-- Contenedor para encabezado -->
+		<div id="name"> <!-- Contenedor para el título en h1 -->
+        	<h1>EXAMEN TAREA 4 v1.0 </h1>
+        </div>
+        <div id="logo"> <!-- Contenedor para el logo -->
+        </div>
+	</div>
+    
+    <div id="form"> <!-- Contenedor para el formulario --> 
+    	
+        <form id="myForm"> 
+        	<p class="question">...</p><!-- Pregunta tipo texto -->
+            <input type="text"><br>
+        
+        	<p class="question">...</p>
+            <input type="text"><br>
+        
+       		<p class="question">...</p><!-- Pregunta tipo radio -->
+            <div class='radioDiv'></div><br>
+            
+            <p class="question">...</p>
+            <div class='radioDiv'></div><br>
+		
+			<p class="question">...</p><!-- Pregunta tipo checkbox -->
+			<div class='checkboxDiv'></div><br>
+            
+            <p class="question">...</p>
+			<div class='checkboxDiv'></div><br>
+            
+            <p class="question">...</p><!-- Pregunta tipo select simple -->
+			<select>
+				<option selected value="-1" disabled>Elegir</option>
+			</select><br>
+            
+            <p class="question">...</p>
+			<select>
+				<option selected value="-1" disabled>Elegir</option>
+			</select><br>
+            
+            <p class="question">...</p><!-- Pregunta tipo select múltiple -->
+			<select multiple>
+				<option value="-1" disabled>Selección múltiple</option>
+			</select><br>
+            
+            <p class="question">...</p>
+			<select multiple>
+				<option value="-1" disabled>Selección múltiple</option>
+			</select><br>
+
+		</form>
+        
+    </div>
+	
+    <div id="eval">
+    	<input type='submit' id="botonEval" value='Evaluar'>
+    </div>
+    
+    <div id="notaFinal">
+		<h3 id="notaza">.</h3>
+		<div id='resultadosDiv'></div>
+	</div>
+    
+</div>
+
+</body>
+</html>

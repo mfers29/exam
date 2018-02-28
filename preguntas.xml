@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<preguntas>
+ 
+	<pregunta id='p01'> 
+		<tipo> text </tipo> 
+		<texto> 1. Completa la siguiente afirmación (siglas):Se puede definir una__________como una serie de dispositivos conectados en red que a pesar de estar conectados en diferentes equipos pertenecen a una misma LAN. </texto> 
+		<respuesta> VLAN </respuesta>
+	</pregunta>
+ 
+	<pregunta id='p02'> 
+		<tipo> text </tipo> 
+		<texto> 2. Completa la siguiente afirmación: Hablando de las VLAN más importantes: En las de puerto central, todos los ________ se conectan a un mismo ______ del router o del conmutador</texto > 
+		<respuesta> puerto </respuesta>
+		<respuesta> nodo </respuesta>
+	</pregunta> 
+	
+    <pregunta id = 'p03'> 
+        <tipo> select </tipo> 
+        <texto> Las computadoras se pueden clasificar como: </texto> 
+		<opcion> De uso general </opcion> 
+		<opcion> Propio </opcion> 
+		<opcion> De un tercero </opcion> 
+		<respuesta> 1 </respuesta> <! - SelectedIndex = 0, 1 ó 2, 2 significa la tercera opción -> 
+	</pregunta >
+	
+	<pregunta id = 'p04'> 
+        <tipo> select </tipo> 
+        <texto> Modelos de S.O según su estructura o diseño: </texto> 
+		<opcion> Monolítico </opcion> 
+		<opcion> Cliente/cliente </opcion> 
+		<opcion> Opcional </opcion> 
+		<respuesta> 1 </respuesta> <! - SelectedIndex = 0, 1 ó 2, 2 significa la tercera opción -> 
+	</pregunta> 
+	
+	<pregunta id = 'p05'> 
+		<tipo> multiple </tipo> 
+		<texto> La estructura interior de un sistema FAT es: </texto> 
+		<opcion> FAT folder structure </opcion> 
+		<opcion> FAT root folder </opcion>  
+		<opcion> FAT16 </opcion>
+		<respuesta> 1 </respuesta>
+		<respuesta> 2 </respuesta>
+	</pregunta>
+	
+	<pregunta id = 'p06'> 
+		<tipo> multiple </tipo> 
+		<texto> ¿Qué posibilidades puede brindar un S.O en su diseño? </texto> 
+		<opcion> Interfaces de usuario </opcion> 
+		<opcion> Servicio de soporte o actualización del sistema </opcion>  
+		<opcion> Placa base </opcion>
+		<respuesta> 1 </respuesta>
+		<respuesta> 2 </respuesta>
+	</pregunta>	
+		
+	<pregunta id = 'p07'> 
+		<tipo> checkbox </tipo> 
+		<texto>  De los siguientes elementos ¿Cuáles son atributos del directorio? </texto> 
+		<opcion> Fecha y hora </opcion> 
+		<opcion> "(R)" </opcion>  
+		<opcion> "(G)" </opcion>
+		<respuesta> 1 </respuesta>
+		<respuesta> 2 </respuesta>
+	</pregunta>	
+		
+	<pregunta id = 'p08'> 
+		<tipo> checkbox </tipo> 
+		<texto> Los elementos principales de un sistema de archivo son: </texto> 
+		<opcion> El archivo </opcion> 
+		<opcion> El directorio </opcion>  
+		<opcion> El S.O en si </opcion>
+		<respuesta> 1 </respuesta>
+		<respuesta> 2 </respuesta>
+	</pregunta>
+	
+	<pregunta id = 'p09'> 
+        <tipo> radio </tipo> 
+        <texto> Un león muerto de hambre, qué come? </texto> 
+		<opcion> Carne </opcion> 
+		<opcion> Pescado </opcion> 
+		<opcion> Nada, está muerto </opcion> 
+		<respuesta> 2 </respuesta> <! - SelectedIndex = 0, 1 ó 2, 2 significa la tercera opción -> 
+	</pregunta >
+	
+	<pregunta id = 'p10'> 
+        <tipo> radio </tipo> 
+        <texto> Un león muerto de hambre, qué come? </texto> 
+		<opcion> Carne </opcion> 
+		<opcion> Pescado </opcion> 
+		<opcion> Nada, está muerto </opcion> 
+		<respuesta> 2 </respuesta> <! - SelectedIndex = 0, 1 ó 2, 2 significa la tercera opción -> 
+	</pregunta >
+</preguntas> 

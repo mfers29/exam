@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#espacio{
+	width:90%;
+	margin-left:5%;
+	background-image:url(../img/logo.png);
+	background-size:cover;
+	font-family:arial;
+	font-weight:bold;
+	}
+	
+#nombreuni{
+	width:70%;
+	margin-left:15%;
+	text-align:center;
+	}
+
+#ext4{
+	width:50%;
+	margin-left:25%;
+	text-align:center;
+	}
+	
+#instrucc{
+	width:70%;
+	margin-left:15%;
+	text-align:center;
+	}
+	
+#iralexamen{
+	width:50%;
+	margin-left:25%;
+	text-align:center;
+	background-color:#999;
+	font-size:4vw;
+	}
