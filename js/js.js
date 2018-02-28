@@ -41,7 +41,7 @@ window.onload = function() {
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "https://github.com/mfers29/exam/blob/master/xml/preguntas.xml", true); 
+    xhttp.open("GET", "xml/preguntas.xml", true); //cambiar URL al subir al github!!!
     xhttp.send();
      
 }
